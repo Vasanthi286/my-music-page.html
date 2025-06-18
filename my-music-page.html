@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player UI</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- ===== SIDEBAR ===== -->
+        <aside class="sidebar">
+            <div class="box">
+                <p><strong>Create your first playlist</strong></p>
+                <small>It's easy, we'll help you</small>
+                <button>Create playlist</button>
+            </div>
+            <div class="box">
+                <p><strong>Let's find some podcasts</strong></p>
+                <small>We'll keep you updated</small>
+                <button>Browse podcasts</button>
+            </div>
+        </aside>
+
+        <!-- ===== MAIN CONTENT ===== -->
+        <main class="main-content">
+            <!-- HEADER -->
+            <header class="header">
+                <div class="header-nav">
+                    <div class="nav-arrows">
+                        <i class="fa-solid fa-chevron-left"></i>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                    <div class="header-search">
+                        <i class="fa-solid fa-search"></i>
+                        <input type="text" placeholder="What do you want to play?">
+                    </div>
+                </div>
+                <div class="header-user">
+                    <a href="#" class="link-premium">Premium</a>
+                    <a href="#" class="link-support">Support</a>
+                    <button>Login</button>
+                    <button class="btn-signup">Sign up</button>
+                </div>
+            </header>
+
+            <!-- TRENDING SECTION -->
+            <section class="content-section">
+                <div class="section-header">
+                    <h2>Trending Now</h2>
+                    <a href="#" class="show-all">Show all</a>
+                </div>
+                <div class="card-carousel">
+                    <!-- Song Card 1 -->
+                    <div class="song-card">
+                        <img src="https://i.scdn.co/image/ab67616d00001e02e914bf689b71e145e5b3b047" alt="Album Art">
+                        <p class="title">Blinding Lights</p>
+                        <p class="artist">The Weeknd</p>
+                    </div>
+                    <!-- Song Card 2 -->
+                    <div class="song-card">
+                        <img src="https://i.scdn.co/image/ab67616d00001e02b46f74097655d7f353caab14" alt="Album Art">
+                        <p class="title">As It Was</p>
+                        <p class="artist">Harry Styles</p>
+                    </div>
+                     <!-- Song Card 3 -->
+                    <div class="song-card">
+                        <img src="https://i.scdn.co/image/ab67616d00001e028590025f543594a179313926" alt="Album Art">
+                        <p class="title">Flowers</p>
+                        <p class="artist">Miley Cyrus</p>
+                    </div>
+                     <!-- Song Card 4 -->
+                    <div class="song-card">
+                        <img src="https://i.scdn.co/image/ab67616d00001e02c5c68f6e729583162740e657" alt="Album Art">
+                        <p class="title">I'm Good (Blue)</p>
+                        <p class="artist">David Guetta & Bebe Rexha</p>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- POPULAR ARTISTS SECTION -->
+            <section class="content-section">
+                <div class="section-header">
+                    <h2>Popular Artists</h2>
+                    <a href="#" class="show-all">Show all</a>
+                </div>
+                <div class="card-carousel">
+                    <!-- Artist Card 1 -->
+                    <div class="artist-card">
+                        <img src="https://i.scdn.co/image/ab67616100005174859e4c14fa59296c8649e4e4" alt="Artist Photo">
+                        <p class="artist-name">Taylor Swift</p>
+                    </div>
+                    <!-- Artist Card 2 -->
+                    <div class="artist-card">
+                        <img src="https://i.scdn.co/image/ab676161000051747355432d43d1a7f7a793c5f2" alt="Artist Photo">
+                        <p class="artist-name">Ed Sheeran</p>
+                    </div>
+                     <!-- Artist Card 3 -->
+                    <div class="artist-card">
+                        <img src="https://i.scdn.co/image/ab676161000051744ab2520c2c77a32338575a6c" alt="Artist Photo">
+                        <p class="artist-name">Drake</p>
+                    </div>
+                     <!-- Artist Card 4 -->
+                    <div class="artist-card">
+                        <img src="https://i.scdn.co/image/ab67616100005174bd71c996e3d484b3b18a09a5" alt="Artist Photo">
+                        <p class="artist-name">Bad Bunny</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+</body>
+</html>
